@@ -32,7 +32,7 @@
  */
 
 
-'''c
+```c
 int sensorPin = A0;        // Gas sensor output pin
 int sensorValue = 0;       // Raw ADC value (0-1023)
 float voltage = 0.0;       // Voltage (0-5V)
@@ -54,4 +54,4 @@ void loop() {
   
   delay(100);  // Read 10 times per second (smooth graph)
 }
-'''
+```
